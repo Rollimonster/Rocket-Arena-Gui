@@ -1,0 +1,1694 @@
+local ScreenGui = Instance.new("ScreenGui")
+local RoliText = Instance.new("TextLabel")
+local Roli = Instance.new("ImageLabel")
+local Logo = Instance.new("ImageLabel")
+
+ScreenGui.Parent = game.CoreGui
+
+RoliText.Name = "RoliText"
+RoliText.Parent = ScreenGui
+RoliText.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+RoliText.BackgroundTransparency = 1.000
+RoliText.Position = UDim2.new(0.39101848, 0, 0.371478856, 0)
+RoliText.Size = UDim2.new(0, 200, 0, 50)
+RoliText.Font = Enum.Font.SourceSans
+RoliText.Text = "By Rolimonster"
+RoliText.TextColor3 = Color3.fromRGB(0, 0, 0)
+RoliText.TextSize = 65.000
+
+Roli.Name = "Roli"
+Roli.Parent = RoliText
+Roli.BackgroundColor3 = Color3.fromRGB(255, 0, 0)
+Roli.BackgroundTransparency = 1.000
+Roli.Position = UDim2.new(0, 0, -4.01999998, 0)
+Roli.Size = UDim2.new(0, 200, 0, 201)
+Roli.Image = "http://www.roblox.com/asset/?id=7513477056"
+
+Logo.Name = "Logo"
+Logo.Parent = ScreenGui
+Logo.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Logo.BackgroundTransparency = 2.000
+Logo.ClipsDescendants = true
+Logo.Position = UDim2.new(0.391700387, 0, 0.51584506, 0)
+Logo.Size = UDim2.new(0, 213, 0, 213)
+Logo.Image = "http://www.roblox.com/asset/?id=7513383156"
+
+local function IYWBJ_fake_script() -- RoliText.LocalScript 
+    local script = Instance.new('LocalScript', RoliText)
+
+    while true do
+        for a = 1,360,1 do
+            wait(0.1)
+            script.Parent.TextColor3 = Color3.fromHSV(a/360,1,1)
+        end
+    end
+    
+end
+coroutine.wrap(IYWBJ_fake_script)()
+local function JIKSRQ_fake_script() -- Roli.LocalScript 
+    local script = Instance.new('LocalScript', Roli)
+
+    local blur = Instance.new("BlurEffect", game.Lighting)
+    wait(10)
+    game.Lighting.Blur:Destroy()
+end
+coroutine.wrap(JIKSRQ_fake_script)()
+local function TGITDKV_fake_script() -- Roli.LocalScript 
+    local script = Instance.new('LocalScript', Roli)
+
+    script.Parent.Visible = true
+    wait (10)
+    script.Parent.Visible = false
+end
+coroutine.wrap(TGITDKV_fake_script)()
+local function ROJG_fake_script() -- RoliText.LocalScript 
+    local script = Instance.new('LocalScript', RoliText)
+
+    script.Parent.Visible = true
+    wait (10)
+    script.Parent.Visible = false
+end
+coroutine.wrap(ROJG_fake_script)()
+local function MESIHI_fake_script() -- Logo.LocalScript 
+    local script = Instance.new('LocalScript', Logo)
+
+    script.Parent.Visible = true
+    wait (10)
+    script.Parent.Visible = false
+end
+coroutine.wrap(MESIHI_fake_script)()
+local function LMDG_fake_script() -- Logo.LocalScript 
+    local script = Instance.new('LocalScript', Logo)
+
+    while true do
+        for a = 1,360,1 do
+            wait(0.1)
+            script.Parent.ImageColor3 = Color3.fromHSV(a/360,1,1)
+        end
+    end
+    
+end
+coroutine.wrap(LMDG_fake_script)()
+
+local Colum1 = Instance.new("ScreenGui")
+local Frame11 = Instance.new("Frame")
+local UICorner = Instance.new("UICorner")
+local Frame12 = Instance.new("Frame")
+local UICorner_2 = Instance.new("UICorner")
+local TpLounge = Instance.new("TextButton")
+local UICorner_3 = Instance.new("UICorner")
+local TpPur = Instance.new("TextButton")
+local UICorner_4 = Instance.new("UICorner")
+local TpOra = Instance.new("TextButton")
+local UICorner_5 = Instance.new("UICorner")
+local TpYel = Instance.new("TextButton")
+local UICorner_6 = Instance.new("UICorner")
+local TpGre = Instance.new("TextButton")
+local UICorner_7 = Instance.new("UICorner")
+local TpBla = Instance.new("TextButton")
+local UICorner_8 = Instance.new("UICorner")
+local TpBlu = Instance.new("TextButton")
+local UICorner_9 = Instance.new("UICorner")
+local TpBei = Instance.new("TextButton")
+local UICorner_10 = Instance.new("UICorner")
+local TpAme = Instance.new("TextButton")
+local UICorner_11 = Instance.new("UICorner")
+local TpTo = Instance.new("TextButton")
+local UICorner_12 = Instance.new("UICorner")
+local TpMid = Instance.new("TextButton")
+local UICorner_13 = Instance.new("UICorner")
+local TpsTitle = Instance.new("TextLabel")
+local UICorner_14 = Instance.new("UICorner")
+local TpInput = Instance.new("TextBox")
+local UICorner_15 = Instance.new("UICorner")
+local Colum2 = Instance.new("ScreenGui")
+local Frame21 = Instance.new("Frame")
+local UICorner_16 = Instance.new("UICorner")
+local Frame22 = Instance.new("Frame")
+local UICorner_17 = Instance.new("UICorner")
+local BoxEsp = Instance.new("TextButton")
+local UICorner_18 = Instance.new("UICorner")
+local DrawFov = Instance.new("TextButton")
+local UICorner_19 = Instance.new("UICorner")
+local NameEsp = Instance.new("TextButton")
+local UICorner_20 = Instance.new("UICorner")
+local SkeEsp = Instance.new("TextButton")
+local UICorner_21 = Instance.new("UICorner")
+local Invis = Instance.new("TextButton")
+local UICorner_22 = Instance.new("UICorner")
+local Spoofer = Instance.new("TextButton")
+local UICorner_23 = Instance.new("UICorner")
+local MapEsp = Instance.new("TextButton")
+local UICorner_24 = Instance.new("UICorner")
+local Aimbot = Instance.new("TextButton")
+local UICorner_25 = Instance.new("UICorner")
+local Toggle = Instance.new("TextButton")
+local AimBotButton = Instance.new("UICorner")
+local VisualsTitle = Instance.new("TextLabel")
+local UICorner_26 = Instance.new("UICorner")
+local Colum3 = Instance.new("ScreenGui")
+local Frame31 = Instance.new("Frame")
+local UICorner_27 = Instance.new("UICorner")
+local Frame32 = Instance.new("Frame")
+local UICorner_28 = Instance.new("UICorner")
+local Inf = Instance.new("TextButton")
+local UICorner_29 = Instance.new("UICorner")
+local WalkSpeedInp = Instance.new("TextButton")
+local UICorner_30 = Instance.new("UICorner")
+local JpInp = Instance.new("TextButton")
+local UICorner_31 = Instance.new("UICorner")
+local ClickTp = Instance.new("TextButton")
+local UICorner_32 = Instance.new("UICorner")
+local NoClip = Instance.new("TextButton")
+local UICorner_33 = Instance.new("UICorner")
+local Fly = Instance.new("TextButton")
+local UICorner_34 = Instance.new("UICorner")
+local SetHip = Instance.new("TextButton")
+local UICorner_35 = Instance.new("UICorner")
+local Sprint = Instance.new("TextButton")
+local UICorner_36 = Instance.new("UICorner")
+local AllGamepasses = Instance.new("TextButton")
+local UICorner_37 = Instance.new("UICorner")
+local Expand = Instance.new("TextButton")
+local UICorner_38 = Instance.new("UICorner")
+local GodMode = Instance.new("TextButton")
+local UICorner_39 = Instance.new("UICorner")
+local TpAllHead = Instance.new("TextButton")
+local UICorner_40 = Instance.new("UICorner")
+local TpAllHrp = Instance.new("TextButton")
+local UICorner_41 = Instance.new("UICorner")
+local Expand_2 = Instance.new("TextButton")
+local UICorner_42 = Instance.new("UICorner")
+local TextLabel = Instance.new("TextLabel")
+local VisualsTitle_2 = Instance.new("TextLabel")
+local UICorner_43 = Instance.new("UICorner")
+local WSText = Instance.new("TextBox")
+local UICorner_44 = Instance.new("UICorner")
+local JPText = Instance.new("TextBox")
+local UICorner_45 = Instance.new("UICorner")
+local InfInst = Instance.new("TextLabel")
+local NoClipInst = Instance.new("TextLabel")
+local FlyInst = Instance.new("TextLabel")
+local HipText = Instance.new("TextBox")
+local UICorner_46 = Instance.new("UICorner")
+local TextLabel_2 = Instance.new("TextLabel")
+local Colum4 = Instance.new("ScreenGui")
+local Frame41 = Instance.new("Frame")
+local UICorner_47 = Instance.new("UICorner")
+local Frame42 = Instance.new("Frame")
+local UICorner_48 = Instance.new("UICorner")
+local SunBadge = Instance.new("TextButton")
+local UICorner_49 = Instance.new("UICorner")
+local NoRocketCoolDown = Instance.new("TextButton")
+local UICorner_50 = Instance.new("UICorner")
+local Chat = Instance.new("TextButton")
+local UICorner_51 = Instance.new("UICorner")
+local ChatBotInp = Instance.new("TextBox")
+local UICorner_52 = Instance.new("UICorner")
+local FunTitle = Instance.new("TextLabel")
+local UICorner_53 = Instance.new("UICorner")
+
+Colum1.Name = "Colum 1"
+Colum1.Parent = game.Coregui
+Colum1.ZIndexBehavior = Enum.ZIndexBehavior.Sibling
+
+Frame11.Name = "Frame 1 1"
+Frame11.Active = true
+Frame11.Parent = Colum1
+Frame11.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Frame11.Position = UDim2.new(0.0205190107, 0, 0, 0)
+Frame11.Size = UDim2.new(0, 167, 0, 468)
+Frame11.Draggable = true
+
+UICorner.Parent = Frame11
+
+Frame12.Name = "Frame 1 2"
+Frame12.Parent = Frame11
+Frame12.BackgroundColor3 = Color3.fromRGB(54, 54, 54)
+Frame12.Position = UDim2.new(0.0452394783, 0, 0.0193369295, 0)
+Frame12.Size = UDim2.new(0, 151, 0, 447)
+
+UICorner_2.Parent = Frame12
+
+TpLounge.Name = "TpLounge"
+TpLounge.Parent = Frame12
+TpLounge.BackgroundColor3 = Color3.fromRGB(91, 91, 91)
+TpLounge.Position = UDim2.new(0.0953724831, 0, 0.0294629931, 0)
+TpLounge.Size = UDim2.new(0, 126, 0, 26)
+TpLounge.Font = Enum.Font.SourceSans
+TpLounge.Text = "lounge"
+TpLounge.TextColor3 = Color3.fromRGB(0, 0, 0)
+TpLounge.TextSize = 14.000
+
+UICorner_3.Parent = TpLounge
+
+TpPur.Name = "TpPur"
+TpPur.Parent = Frame12
+TpPur.BackgroundColor3 = Color3.fromRGB(91, 91, 91)
+TpPur.Position = UDim2.new(0.0953724831, 0, 0.192172006, 0)
+TpPur.Size = UDim2.new(0, 126, 0, 26)
+TpPur.Font = Enum.Font.SourceSans
+TpPur.Text = "Purple"
+TpPur.TextColor3 = Color3.fromRGB(0, 0, 0)
+TpPur.TextSize = 14.000
+
+UICorner_4.Parent = TpPur
+
+TpOra.Name = "TpOra"
+TpOra.Parent = Frame12
+TpOra.BackgroundColor3 = Color3.fromRGB(91, 91, 91)
+TpOra.Position = UDim2.new(0.0821274519, 0, 0.278645009, 0)
+TpOra.Size = UDim2.new(0, 126, 0, 26)
+TpOra.Font = Enum.Font.SourceSans
+TpOra.Text = "Orange"
+TpOra.TextColor3 = Color3.fromRGB(0, 0, 0)
+TpOra.TextSize = 14.000
+
+UICorner_5.Parent = TpOra
+
+TpYel.Name = "TpYel"
+TpYel.Parent = Frame12
+TpYel.BackgroundColor3 = Color3.fromRGB(91, 91, 91)
+TpYel.Position = UDim2.new(0.0821274519, 0, 0.360080272, 0)
+TpYel.Size = UDim2.new(0, 126, 0, 26)
+TpYel.Font = Enum.Font.SourceSans
+TpYel.Text = "Yellow"
+TpYel.TextColor3 = Color3.fromRGB(0, 0, 0)
+TpYel.TextSize = 14.000
+
+UICorner_6.Parent = TpYel
+
+TpGre.Name = "TpGre"
+TpGre.Parent = Frame12
+TpGre.BackgroundColor3 = Color3.fromRGB(91, 91, 91)
+TpGre.Position = UDim2.new(0.0821274519, 0, 0.439383596, 0)
+TpGre.Size = UDim2.new(0, 126, 0, 26)
+TpGre.Font = Enum.Font.SourceSans
+TpGre.Text = "Green"
+TpGre.TextColor3 = Color3.fromRGB(0, 0, 0)
+TpGre.TextSize = 14.000
+
+UICorner_7.Parent = TpGre
+
+TpBla.Name = "TpBla"
+TpBla.Parent = Frame12
+TpBla.BackgroundColor3 = Color3.fromRGB(91, 91, 91)
+TpBla.Position = UDim2.new(0.0821274519, 0, 0.513820648, 0)
+TpBla.Size = UDim2.new(0, 126, 0, 26)
+TpBla.Font = Enum.Font.SourceSans
+TpBla.Text = "Black"
+TpBla.TextColor3 = Color3.fromRGB(0, 0, 0)
+TpBla.TextSize = 14.000
+
+UICorner_8.Parent = TpBla
+
+TpBlu.Name = "TpBlu"
+TpBlu.Parent = Frame12
+TpBlu.BackgroundColor3 = Color3.fromRGB(91, 91, 91)
+TpBlu.Position = UDim2.new(0.0755049363, 0, 0.587527692, 0)
+TpBlu.Size = UDim2.new(0, 126, 0, 26)
+TpBlu.Font = Enum.Font.SourceSans
+TpBlu.Text = "Blue"
+TpBlu.TextColor3 = Color3.fromRGB(0, 0, 0)
+TpBlu.TextSize = 14.000
+
+UICorner_9.Parent = TpBlu
+
+TpBei.Name = "TpBei"
+TpBei.Parent = Frame12
+TpBei.BackgroundColor3 = Color3.fromRGB(91, 91, 91)
+TpBei.Position = UDim2.new(0.0755049363, 0, 0.659590423, 0)
+TpBei.Size = UDim2.new(0, 126, 0, 26)
+TpBei.Font = Enum.Font.SourceSans
+TpBei.Text = "Beige"
+TpBei.TextColor3 = Color3.fromRGB(0, 0, 0)
+TpBei.TextSize = 14.000
+
+UICorner_10.Parent = TpBei
+
+TpAme.Name = "TpAme"
+TpAme.Parent = Frame12
+TpAme.BackgroundColor3 = Color3.fromRGB(91, 91, 91)
+TpAme.Position = UDim2.new(0.0821274519, 0, 0.734620214, 0)
+TpAme.Size = UDim2.new(0, 126, 0, 26)
+TpAme.Font = Enum.Font.SourceSans
+TpAme.Text = "America"
+TpAme.TextColor3 = Color3.fromRGB(0, 0, 0)
+TpAme.TextSize = 14.000
+
+UICorner_11.Parent = TpAme
+
+TpTo.Name = "Tp To"
+TpTo.Parent = Frame12
+TpTo.BackgroundColor3 = Color3.fromRGB(91, 91, 91)
+TpTo.Position = UDim2.new(0.274180412, 0, 0.874283791, 0)
+TpTo.Size = UDim2.new(0, 65, 0, 18)
+TpTo.Font = Enum.Font.SourceSans
+TpTo.Text = "Tp To"
+TpTo.TextColor3 = Color3.fromRGB(0, 0, 0)
+TpTo.TextSize = 14.000
+
+UICorner_12.Parent = TpTo
+
+TpMid.Name = "TpMid"
+TpMid.Parent = Frame12
+TpMid.BackgroundColor3 = Color3.fromRGB(91, 91, 91)
+TpMid.Position = UDim2.new(0.0953724831, 0, 0.10279493, 0)
+TpMid.Size = UDim2.new(0, 126, 0, 26)
+TpMid.Font = Enum.Font.SourceSans
+TpMid.Text = "Middle"
+TpMid.TextColor3 = Color3.fromRGB(0, 0, 0)
+TpMid.TextSize = 14.000
+
+UICorner_13.Parent = TpMid
+
+TpsTitle.Name = "Tps Title"
+TpsTitle.Parent = Frame11
+TpsTitle.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+TpsTitle.Position = UDim2.new(0.0958083868, 0, 0.89316237, 0)
+TpsTitle.Size = UDim2.new(0, 132, 0, 38)
+TpsTitle.Font = Enum.Font.SourceSans
+TpsTitle.Text = "Teleports"
+TpsTitle.TextColor3 = Color3.fromRGB(255, 255, 255)
+TpsTitle.TextSize = 14.000
+
+UICorner_14.Parent = TpsTitle
+
+TpInput.Name = "Tp Input"
+TpInput.Parent = Frame11
+TpInput.BackgroundColor3 = Color3.fromRGB(91, 91, 91)
+TpInput.Position = UDim2.new(0.113772459, 0, 0.790598333, 0)
+TpInput.Size = UDim2.new(0, 126, 0, 26)
+TpInput.Font = Enum.Font.SourceSans
+TpInput.PlaceholderText = "Player Name"
+TpInput.Text = ""
+TpInput.TextColor3 = Color3.fromRGB(0, 0, 0)
+TpInput.TextSize = 14.000
+
+UICorner_15.Parent = TpInput
+
+Colum2.Name = "Colum 2"
+Colum2.Parent = game.CoreGui
+Colum2.ZIndexBehavior = Enum.ZIndexBehavior.Sibling
+
+Frame21.Name = "Frame 2 1"]
+Frame21.Active = true
+Frame21.Parent = Colum2
+Frame21.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Frame21.Position = UDim2.new(0.131563067, 0, 0, 0)
+Frame21.Size = UDim2.new(0, 167, 0, 337)
+Frame21.Draggable = true
+
+UICorner_16.Parent = Frame21
+
+Frame22.Name = "Frame 2 2"
+Frame22.Parent = Frame21
+Frame22.BackgroundColor3 = Color3.fromRGB(54, 54, 54)
+Frame22.Position = UDim2.new(0.0452394783, 0, 0.0238515697, 0)
+Frame22.Size = UDim2.new(0, 151, 0, 321)
+
+UICorner_17.Parent = Frame22
+
+BoxEsp.Name = "Box Esp"
+BoxEsp.Parent = Frame22
+BoxEsp.BackgroundColor3 = Color3.fromRGB(91, 91, 91)
+BoxEsp.Position = UDim2.new(0.082127437, 0, 0.129655153, 0)
+BoxEsp.Size = UDim2.new(0, 125, 0, 26)
+BoxEsp.Font = Enum.Font.SourceSans
+BoxEsp.Text = "Box Esp"
+BoxEsp.TextColor3 = Color3.fromRGB(0, 0, 0)
+BoxEsp.TextSize = 14.000
+
+UICorner_18.Parent = BoxEsp
+
+DrawFov.Name = "Draw Fov"
+DrawFov.Parent = Frame22
+DrawFov.BackgroundColor3 = Color3.fromRGB(91, 91, 91)
+DrawFov.Position = UDim2.new(0.0887499452, 0, 0.0184894614, 0)
+DrawFov.Size = UDim2.new(0, 126, 0, 26)
+DrawFov.Font = Enum.Font.SourceSans
+DrawFov.Text = "Draw Fov"
+DrawFov.TextColor3 = Color3.fromRGB(0, 0, 0)
+DrawFov.TextSize = 14.000
+
+UICorner_19.Parent = DrawFov
+
+NameEsp.Name = "Name Esp"
+NameEsp.Parent = Frame22
+NameEsp.BackgroundColor3 = Color3.fromRGB(91, 91, 91)
+NameEsp.Position = UDim2.new(0.0887499452, 0, 0.238186777, 0)
+NameEsp.Size = UDim2.new(0, 125, 0, 26)
+NameEsp.Font = Enum.Font.SourceSans
+NameEsp.Text = "Name Esp"
+NameEsp.TextColor3 = Color3.fromRGB(0, 0, 0)
+NameEsp.TextSize = 14.000
+
+UICorner_20.Parent = NameEsp
+
+SkeEsp.Name = "Ske Esp"
+SkeEsp.Parent = Frame22
+SkeEsp.BackgroundColor3 = Color3.fromRGB(91, 91, 91)
+SkeEsp.Position = UDim2.new(0.0821274295, 0, 0.356001914, 0)
+SkeEsp.Size = UDim2.new(0, 125, 0, 26)
+SkeEsp.Font = Enum.Font.SourceSans
+SkeEsp.Text = "Skeleton Esp"
+SkeEsp.TextColor3 = Color3.fromRGB(0, 0, 0)
+SkeEsp.TextSize = 14.000
+
+UICorner_21.Parent = SkeEsp
+
+Invis.Name = "Invis"
+Invis.Parent = Frame22
+Invis.BackgroundColor3 = Color3.fromRGB(91, 91, 91)
+Invis.Position = UDim2.new(0.0821277723, 0, 0.561993837, 0)
+Invis.Size = UDim2.new(0, 125, 0, 26)
+Invis.Font = Enum.Font.SourceSans
+Invis.Text = "Fe Invis"
+Invis.TextColor3 = Color3.fromRGB(0, 0, 0)
+Invis.TextSize = 14.000
+
+UICorner_22.Parent = Invis
+
+Spoofer.Name = "Spoofer"
+Spoofer.Parent = Frame22
+Spoofer.BackgroundColor3 = Color3.fromRGB(91, 91, 91)
+Spoofer.Position = UDim2.new(0.0821274295, 0, 0.661485553, 0)
+Spoofer.Size = UDim2.new(0, 125, 0, 26)
+Spoofer.Font = Enum.Font.SourceSans
+Spoofer.Text = "Avatar Spoofer"
+Spoofer.TextColor3 = Color3.fromRGB(0, 0, 0)
+Spoofer.TextSize = 14.000
+
+UICorner_23.Parent = Spoofer
+
+MapEsp.Name = "Map Esp"
+MapEsp.Parent = Frame22
+MapEsp.BackgroundColor3 = Color3.fromRGB(91, 91, 91)
+MapEsp.Position = UDim2.new(0.101995334, 0, 0.459143013, 0)
+MapEsp.Size = UDim2.new(0, 125, 0, 26)
+MapEsp.Font = Enum.Font.SourceSans
+MapEsp.Text = "Map Esp"
+MapEsp.TextColor3 = Color3.fromRGB(0, 0, 0)
+MapEsp.TextSize = 14.000
+
+UICorner_24.Parent = MapEsp
+
+Aimbot.Name = "Aimbot"
+Aimbot.Parent = Frame22
+Aimbot.BackgroundColor3 = Color3.fromRGB(91, 91, 91)
+Aimbot.Position = UDim2.new(0.0821277723, 0, 0.771775067, 0)
+Aimbot.Size = UDim2.new(0, 92, 0, 26)
+Aimbot.Font = Enum.Font.SourceSans
+Aimbot.Text = "Aimbot"
+Aimbot.TextColor3 = Color3.fromRGB(0, 0, 0)
+Aimbot.TextSize = 14.000
+
+UICorner_25.Parent = Aimbot
+
+Toggle.Name = "Toggle"
+Toggle.Parent = Frame22
+Toggle.BackgroundColor3 = Color3.fromRGB(255, 0, 0)
+Toggle.Position = UDim2.new(0.764246702, 0, 0.771775126, 0)
+Toggle.Size = UDim2.new(0, 25, 0, 26)
+Toggle.Font = Enum.Font.SourceSans
+Toggle.Text = ""
+Toggle.TextColor3 = Color3.fromRGB(0, 0, 0)
+Toggle.TextSize = 14.000
+
+AimBotButton.Name = "AimBot Button"
+AimBotButton.Parent = Toggle
+
+VisualsTitle.Name = "Visuals Title"
+VisualsTitle.Parent = Frame21
+VisualsTitle.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+VisualsTitle.Position = UDim2.new(0.10068655, 0, 0.856348991, 0)
+VisualsTitle.Size = UDim2.new(0, 132, 0, 41)
+VisualsTitle.Font = Enum.Font.SourceSans
+VisualsTitle.Text = "Visual"
+VisualsTitle.TextColor3 = Color3.fromRGB(255, 255, 255)
+VisualsTitle.TextSize = 14.000
+
+UICorner_26.Parent = VisualsTitle
+
+Colum3.Name = "Colum 3"
+Colum3.Parent = game.Coregui
+Colum3.ZIndexBehavior = Enum.ZIndexBehavior.Sibling
+
+Frame31.Name = "Frame 3 1"
+Frame31.Active = true
+Frame31.Parent = Colum3
+Frame31.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Frame31.Position = UDim2.new(0.258748144, 0, 0, 0)
+Frame31.Size = UDim2.new(0, 167, 0, 557)
+Frame31.Draggable = true
+
+UICorner_27.Parent = Frame31
+
+Frame32.Name = "Frame 3 2"
+Frame32.Parent = Frame31
+Frame32.BackgroundColor3 = Color3.fromRGB(54, 54, 54)
+Frame32.Position = UDim2.new(0.0452394783, 0, 0.0162471868, 0)
+Frame32.Size = UDim2.new(0, 151, 0, 540)
+
+UICorner_28.Parent = Frame32
+
+Inf.Name = "Inf"
+Inf.Parent = Frame32
+Inf.BackgroundColor3 = Color3.fromRGB(91, 91, 91)
+Inf.Position = UDim2.new(0.0755049363, 0, 0.680101454, 0)
+Inf.Size = UDim2.new(0, 125, 0, 26)
+Inf.Font = Enum.Font.SourceSans
+Inf.Text = "Inf Jump"
+Inf.TextColor3 = Color3.fromRGB(0, 0, 0)
+Inf.TextSize = 14.000
+
+UICorner_29.Parent = Inf
+
+WalkSpeedInp.Name = "WalkSpeed Inp"
+WalkSpeedInp.Parent = Frame32
+WalkSpeedInp.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+WalkSpeedInp.Position = UDim2.new(0.320538044, 0, 0.0434251018, 0)
+WalkSpeedInp.Size = UDim2.new(0, 51, 0, 21)
+WalkSpeedInp.Font = Enum.Font.SourceSans
+WalkSpeedInp.Text = "Set Speed"
+WalkSpeedInp.TextColor3 = Color3.fromRGB(255, 255, 255)
+WalkSpeedInp.TextSize = 11.000
+
+UICorner_30.Parent = WalkSpeedInp
+
+JpInp.Name = "JpInp"
+JpInp.Parent = Frame32
+JpInp.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+JpInp.Position = UDim2.new(0.327160567, 0, 0.130331546, 0)
+JpInp.Size = UDim2.new(0, 51, 0, 21)
+JpInp.Font = Enum.Font.SourceSans
+JpInp.Text = "Set Jump"
+JpInp.TextColor3 = Color3.fromRGB(255, 255, 255)
+JpInp.TextSize = 11.000
+
+UICorner_31.Parent = JpInp
+
+ClickTp.Name = "Click Tp"
+ClickTp.Parent = Frame32
+ClickTp.BackgroundColor3 = Color3.fromRGB(91, 91, 91)
+ClickTp.Position = UDim2.new(0.0755049363, 0, 0.61468029, 0)
+ClickTp.Size = UDim2.new(0, 125, 0, 26)
+ClickTp.Font = Enum.Font.SourceSans
+ClickTp.Text = "Click To Tp"
+ClickTp.TextColor3 = Color3.fromRGB(0, 0, 0)
+ClickTp.TextSize = 14.000
+
+UICorner_32.Parent = ClickTp
+
+NoClip.Name = "NoClip"
+NoClip.Parent = Frame32
+NoClip.BackgroundColor3 = Color3.fromRGB(91, 91, 91)
+NoClip.Position = UDim2.new(0.0821274519, 0, 0.752987564, 0)
+NoClip.Size = UDim2.new(0, 125, 0, 26)
+NoClip.Font = Enum.Font.SourceSans
+NoClip.Text = "NoClip"
+NoClip.TextColor3 = Color3.fromRGB(0, 0, 0)
+NoClip.TextSize = 14.000
+
+UICorner_33.Parent = NoClip
+
+Fly.Name = "Fly"
+Fly.Parent = Frame32
+Fly.BackgroundColor3 = Color3.fromRGB(91, 91, 91)
+Fly.Position = UDim2.new(0.0887499675, 0, 0.820720971, 0)
+Fly.Size = UDim2.new(0, 125, 0, 26)
+Fly.Font = Enum.Font.SourceSans
+Fly.Text = "Fly"
+Fly.TextColor3 = Color3.fromRGB(0, 0, 0)
+Fly.TextSize = 14.000
+
+UICorner_34.Parent = Fly
+
+SetHip.Name = "SetHip"
+SetHip.Parent = Frame32
+SetHip.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+SetHip.Position = UDim2.new(0.33378306, 0, 0.21805428, 0)
+SetHip.Size = UDim2.new(0, 51, 0, 21)
+SetHip.Font = Enum.Font.SourceSans
+SetHip.Text = "Set Hip"
+SetHip.TextColor3 = Color3.fromRGB(255, 255, 255)
+SetHip.TextSize = 11.000
+
+UICorner_35.Parent = SetHip
+
+Sprint.Name = "Sprint"
+Sprint.Parent = Frame32
+Sprint.BackgroundColor3 = Color3.fromRGB(91, 91, 91)
+Sprint.Position = UDim2.new(0.0688824207, 0, 0.554446161, 0)
+Sprint.Size = UDim2.new(0, 125, 0, 26)
+Sprint.Font = Enum.Font.SourceSans
+Sprint.Text = "Sprint"
+Sprint.TextColor3 = Color3.fromRGB(0, 0, 0)
+Sprint.TextSize = 14.000
+
+UICorner_36.Parent = Sprint
+
+AllGamepasses.Name = "All Gamepasses"
+AllGamepasses.Parent = Frame32
+AllGamepasses.BackgroundColor3 = Color3.fromRGB(91, 91, 91)
+AllGamepasses.Position = UDim2.new(0.0755049363, 0, 0.375791371, 0)
+AllGamepasses.Size = UDim2.new(0, 125, 0, 26)
+AllGamepasses.Font = Enum.Font.SourceSans
+AllGamepasses.Text = "All GamePasses"
+AllGamepasses.TextColor3 = Color3.fromRGB(0, 0, 0)
+AllGamepasses.TextSize = 14.000
+
+UICorner_37.Parent = AllGamepasses
+
+Expand.Name = "Expand"
+Expand.Parent = Frame32
+Expand.BackgroundColor3 = Color3.fromRGB(91, 91, 91)
+Expand.Position = UDim2.new(0.0887499675, 0, 0.881771564, 0)
+Expand.Size = UDim2.new(0, 125, 0, 26)
+Expand.Font = Enum.Font.SourceSans
+Expand.Text = "HitBox Expander"
+Expand.TextColor3 = Color3.fromRGB(0, 0, 0)
+Expand.TextSize = 14.000
+
+UICorner_38.Parent = Expand
+
+GodMode.Name = "God Mode"
+GodMode.Parent = Frame32
+GodMode.BackgroundColor3 = Color3.fromRGB(91, 91, 91)
+GodMode.Position = UDim2.new(0.0755049363, 0, 0.315104872, 0)
+GodMode.Size = UDim2.new(0, 125, 0, 26)
+GodMode.Font = Enum.Font.SourceSans
+GodMode.Text = "God Mode"
+GodMode.TextColor3 = Color3.fromRGB(0, 0, 0)
+GodMode.TextSize = 14.000
+
+UICorner_39.Parent = GodMode
+
+TpAllHead.Name = "Tp All Head"
+TpAllHead.Parent = Frame32
+TpAllHead.BackgroundColor3 = Color3.fromRGB(91, 91, 91)
+TpAllHead.Position = UDim2.new(0.0821274519, 0, 0.436902493, 0)
+TpAllHead.Size = UDim2.new(0, 125, 0, 26)
+TpAllHead.Font = Enum.Font.SourceSans
+TpAllHead.Text = "Tp All Head"
+TpAllHead.TextColor3 = Color3.fromRGB(0, 0, 0)
+TpAllHead.TextSize = 14.000
+
+UICorner_40.Parent = TpAllHead
+
+TpAllHrp.Name = "TpAllHrp"
+TpAllHrp.Parent = Frame32
+TpAllHrp.BackgroundColor3 = Color3.fromRGB(91, 91, 91)
+TpAllHrp.Position = UDim2.new(0.0556373857, 0, 0.496161759, 0)
+TpAllHrp.Size = UDim2.new(0, 125, 0, 26)
+TpAllHrp.Font = Enum.Font.SourceSans
+TpAllHrp.Text = "Tp All HumanoidRootPart"
+TpAllHrp.TextColor3 = Color3.fromRGB(0, 0, 0)
+TpAllHrp.TextSize = 12.000
+
+UICorner_41.Parent = TpAllHrp
+
+Expand_2.Name = "Expand"
+Expand_2.Parent = Frame32
+Expand_2.BackgroundColor3 = Color3.fromRGB(91, 91, 91)
+Expand_2.Position = UDim2.new(0.0755049363, 0, 0.257697463, 0)
+Expand_2.Size = UDim2.new(0, 125, 0, 26)
+Expand_2.Font = Enum.Font.SourceSans
+Expand_2.Text = "HitBox Expander"
+Expand_2.TextColor3 = Color3.fromRGB(0, 0, 0)
+Expand_2.TextSize = 14.000
+
+UICorner_42.Parent = Expand_2
+
+TextLabel.Parent = Frame32
+TextLabel.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel.BackgroundTransparency = 1.000
+TextLabel.Position = UDim2.new(-0.176636234, 0, 0.309423357, 0)
+TextLabel.Size = UDim2.new(0, 200, 0, 50)
+TextLabel.Font = Enum.Font.SourceSans
+TextLabel.Text = "*Not Mine*"
+TextLabel.TextColor3 = Color3.fromRGB(0, 0, 0)
+TextLabel.TextSize = 10.000
+
+VisualsTitle_2.Name = "Visuals Title"
+VisualsTitle_2.Parent = Frame31
+VisualsTitle_2.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+VisualsTitle_2.Position = UDim2.new(0.10667479, 0, 0.911855161, 0)
+VisualsTitle_2.Size = UDim2.new(0, 132, 0, 41)
+VisualsTitle_2.Font = Enum.Font.SourceSans
+VisualsTitle_2.Text = "Player Mods"
+VisualsTitle_2.TextColor3 = Color3.fromRGB(255, 255, 255)
+VisualsTitle_2.TextSize = 14.000
+
+UICorner_43.Parent = VisualsTitle_2
+
+WSText.Name = "WSText"
+WSText.Parent = Frame31
+WSText.BackgroundColor3 = Color3.fromRGB(91, 91, 91)
+WSText.Position = UDim2.new(0.119760476, 0, 0.0155395046, 0)
+WSText.Size = UDim2.new(0, 125, 0, 26)
+WSText.Font = Enum.Font.SourceSans
+WSText.PlaceholderText = "WalkSpeed"
+WSText.Text = ""
+WSText.TextColor3 = Color3.fromRGB(0, 0, 0)
+WSText.TextSize = 14.000
+
+UICorner_44.Parent = WSText
+
+JPText.Name = "JPText"
+JPText.Parent = Frame31
+JPText.BackgroundColor3 = Color3.fromRGB(91, 91, 91)
+JPText.Position = UDim2.new(0.119760476, 0, 0.0974590555, 0)
+JPText.Size = UDim2.new(0, 125, 0, 26)
+JPText.Font = Enum.Font.SourceSans
+JPText.PlaceholderText = "JumpPower"
+JPText.Text = ""
+JPText.TextColor3 = Color3.fromRGB(0, 0, 0)
+JPText.TextSize = 14.000
+
+UICorner_45.Parent = JPText
+
+InfInst.Name = "Inf Inst"
+InfInst.Parent = Frame31
+InfInst.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+InfInst.BackgroundTransparency = 1.000
+InfInst.Position = UDim2.new(-0.101796411, 0, 0.670318484, 0)
+InfInst.Size = UDim2.new(0, 200, 0, 50)
+InfInst.Font = Enum.Font.SourceSans
+InfInst.Text = "*Press  J*"
+InfInst.TextColor3 = Color3.fromRGB(0, 0, 0)
+InfInst.TextSize = 10.000
+
+NoClipInst.Name = "NoClip Inst"
+NoClipInst.Parent = Frame31
+NoClipInst.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+NoClipInst.BackgroundTransparency = 1.000
+NoClipInst.Position = UDim2.new(-0.101796411, 0, 0.734903216, 0)
+NoClipInst.Size = UDim2.new(0, 200, 0, 50)
+NoClipInst.Font = Enum.Font.SourceSans
+NoClipInst.Text = "*Press  N*"
+NoClipInst.TextColor3 = Color3.fromRGB(0, 0, 0)
+NoClipInst.TextSize = 10.000
+
+FlyInst.Name = "Fly Inst"
+FlyInst.Parent = Frame31
+FlyInst.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+FlyInst.BackgroundTransparency = 1.000
+FlyInst.Position = UDim2.new(-0.0839999989, 0, 0.806678653, 0)
+FlyInst.Size = UDim2.new(0, 200, 0, 50)
+FlyInst.Font = Enum.Font.SourceSans
+FlyInst.Text = "*Press  F*"
+FlyInst.TextColor3 = Color3.fromRGB(0, 0, 0)
+FlyInst.TextSize = 10.000
+
+HipText.Name = "HipText"
+HipText.Parent = Frame31
+HipText.BackgroundColor3 = Color3.fromRGB(91, 91, 91)
+HipText.Position = UDim2.new(0.101796404, 0, 0.178777292, 0)
+HipText.Size = UDim2.new(0, 125, 0, 26)
+HipText.Font = Enum.Font.SourceSans
+HipText.PlaceholderText = "HipHeight"
+HipText.Text = ""
+HipText.TextColor3 = Color3.fromRGB(0, 0, 0)
+HipText.TextSize = 14.000
+
+UICorner_46.Parent = HipText
+
+TextLabel_2.Parent = Frame31
+TextLabel_2.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_2.BackgroundTransparency = 1.000
+TextLabel_2.Position = UDim2.new(-0.119999997, 0, 0.547181368, 0)
+TextLabel_2.Size = UDim2.new(0, 200, 0, 50)
+TextLabel_2.Font = Enum.Font.SourceSans
+TextLabel_2.Text = "*Left Ctrl*"
+TextLabel_2.TextColor3 = Color3.fromRGB(0, 0, 0)
+TextLabel_2.TextSize = 10.000
+
+Colum4.Name = "Colum 4"
+Colum4.Parent = game.CoreGui
+Colum4.ZIndexBehavior = Enum.ZIndexBehavior.Sibling
+
+Frame41.Name = "Frame 4 1"
+Frame41.Active = true
+Frame41.Parent = Colum4
+Frame41.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Frame41.Position = UDim2.new(0.130434886, 0, 0.309046119, 0)
+Frame41.Size = UDim2.new(0, 167, 0, 182)
+Frame41.Draggable = true
+
+UICorner_47.Parent = Frame41
+
+Frame42.Name = "Frame 4 2"
+Frame42.Parent = Frame41
+Frame42.BackgroundColor3 = Color3.fromRGB(54, 54, 54)
+Frame42.Position = UDim2.new(0.0452394783, 0, 0.0392732732, 0)
+Frame42.Size = UDim2.new(0, 151, 0, 169)
+
+UICorner_48.Parent = Frame42
+
+SunBadge.Name = "Sun Badge"
+SunBadge.Parent = Frame42
+SunBadge.BackgroundColor3 = Color3.fromRGB(91, 91, 91)
+SunBadge.Position = UDim2.new(0.088749975, 0, 0.252973884, 0)
+SunBadge.Size = UDim2.new(0, 125, 0, 26)
+SunBadge.Font = Enum.Font.SourceSans
+SunBadge.Text = "Sun Badge"
+SunBadge.TextColor3 = Color3.fromRGB(0, 0, 0)
+SunBadge.TextSize = 14.000
+
+UICorner_49.Parent = SunBadge
+
+NoRocketCoolDown.Name = "No Rocket CoolDown"
+NoRocketCoolDown.Parent = Frame42
+NoRocketCoolDown.BackgroundColor3 = Color3.fromRGB(91, 91, 91)
+NoRocketCoolDown.Position = UDim2.new(0.0887499824, 0, 0.0587616637, 0)
+NoRocketCoolDown.Size = UDim2.new(0, 125, 0, 26)
+NoRocketCoolDown.Font = Enum.Font.SourceSans
+NoRocketCoolDown.Text = "No Rocket CoolDown"
+NoRocketCoolDown.TextColor3 = Color3.fromRGB(0, 0, 0)
+NoRocketCoolDown.TextSize = 14.000
+
+UICorner_50.Parent = NoRocketCoolDown
+
+Chat.Name = "Chat"
+Chat.Parent = Frame42
+Chat.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+Chat.Position = UDim2.new(0.313915551, 0, 0.603813589, 0)
+Chat.Size = UDim2.new(0, 51, 0, 21)
+Chat.Font = Enum.Font.SourceSans
+Chat.Text = "Chat"
+Chat.TextColor3 = Color3.fromRGB(255, 255, 255)
+Chat.TextSize = 14.000
+
+UICorner_51.Parent = Chat
+
+ChatBotInp.Name = "ChatBot Inp"
+ChatBotInp.Parent = Frame42
+ChatBotInp.BackgroundColor3 = Color3.fromRGB(91, 91, 91)
+ChatBotInp.Position = UDim2.new(0.0728476718, 0, 0.449332863, 0)
+ChatBotInp.Size = UDim2.new(0, 125, 0, 26)
+ChatBotInp.Font = Enum.Font.SourceSans
+ChatBotInp.PlaceholderText = "ChatBot"
+ChatBotInp.Text = ""
+ChatBotInp.TextColor3 = Color3.fromRGB(0, 0, 0)
+ChatBotInp.TextSize = 14.000
+
+UICorner_52.Parent = ChatBotInp
+
+FunTitle.Name = "Fun Title"
+FunTitle.Parent = Frame41
+FunTitle.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+FunTitle.Position = UDim2.new(0.100686766, 0, 0.737882197, 0)
+FunTitle.Size = UDim2.new(0, 132, 0, 41)
+FunTitle.Font = Enum.Font.SourceSans
+FunTitle.Text = "Fun"
+FunTitle.TextColor3 = Color3.fromRGB(255, 255, 255)
+FunTitle.TextSize = 14.000
+
+UICorner_53.Parent = FunTitle
+
+local function DEYMI_fake_script() -- Frame11.LocalScript 
+	local script = Instance.new('LocalScript', Frame11)
+
+	local Plr = game.Players.LocalPlayer
+	
+	Plr:GetMouse().KeyDown:Connect(function(K)
+		if K == "q" then
+			script.Parent.Visible = false
+		end
+	end)
+	
+	local Plr = game.Players.LocalPlayer
+	
+	Plr:GetMouse().KeyDown:Connect(function(K)
+		if K == "e" then
+			script.Parent.Visible = true
+		end
+	end)
+end
+coroutine.wrap(DEYMI_fake_script)()
+local function OYEFAS_fake_script() -- Frame11.LocalScript 
+	local script = Instance.new('LocalScript', Frame11)
+
+	while true do
+		for a = 1,360,1 do
+			wait(0.1)
+			Frame11.BackgroundColor3 = Color3.fromHSV(a/360,1,1)
+		end
+	end
+end
+coroutine.wrap(OYEFAS_fake_script)()
+local function GSOON_fake_script() -- TpLounge.LocalScript 
+	local script = Instance.new('LocalScript', TpLounge)
+
+	getfenv().script = Instance.new('Script', TpLounge)
+	
+	TpLounge.MouseButton1Click:Connect(function()
+	
+		game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(0,9.3,0)
+	end)
+	
+	
+end
+coroutine.wrap(GSOON_fake_script)()
+local function KMDZP_fake_script() -- TpPur.LocalScript 
+	local script = Instance.new('LocalScript', TpPur)
+
+	getfenv().script = Instance.new('Script', TpPur)
+	
+	TpPur.MouseButton1Click:Connect(function()
+	
+		game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(0,68,112)
+	end)
+	
+	
+end
+coroutine.wrap(KMDZP_fake_script)()
+local function JEHVC_fake_script() -- TpOra.LocalScript 
+	local script = Instance.new('LocalScript', TpOra)
+
+	getfenv().script = Instance.new('Script', TpOra)
+	
+	TpOra.MouseButton1Click:Connect(function()
+	
+		game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(0,68,-112)
+	end)
+	
+	
+end
+coroutine.wrap(JEHVC_fake_script)()
+local function ZAHNRDK_fake_script() -- TpYel.LocalScript 
+	local script = Instance.new('LocalScript', TpYel)
+
+	getfenv().script = Instance.new('Script', TpYel)
+	
+	TpYel.MouseButton1Click:Connect(function()
+	
+		game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(112,68,0)
+	end)
+	
+	
+end
+coroutine.wrap(ZAHNRDK_fake_script)()
+local function OYWEI_fake_script() -- TpGre.LocalScript 
+	local script = Instance.new('LocalScript', TpGre)
+
+	getfenv().script = Instance.new('Script', TpGre)
+	
+	TpGre.MouseButton1Click:Connect(function()
+	
+		game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-112,68,0)
+	end)
+	
+	
+end
+coroutine.wrap(OYWEI_fake_script)()
+local function KAFX_fake_script() -- TpBla.LocalScript 
+	local script = Instance.new('LocalScript', TpBla)
+
+	getfenv().script = Instance.new('Script', TpBla)
+	
+	TpBla.MouseButton1Click:Connect(function()
+	
+		game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-112,68,112)
+	end)
+	
+	
+end
+coroutine.wrap(KAFX_fake_script)()
+local function CECCW_fake_script() -- TpBlu.LocalScript 
+	local script = Instance.new('LocalScript', TpBlu)
+
+	getfenv().script = Instance.new('Script', TpBlu)
+	
+	TpBlu.MouseButton1Click:Connect(function()
+	
+		game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(112,68,112)
+	end)
+	
+	
+end
+coroutine.wrap(CECCW_fake_script)()
+local function LRHX_fake_script() -- TpBei.LocalScript 
+	local script = Instance.new('LocalScript', TpBei)
+
+	getfenv().script = Instance.new('Script', TpBei)
+	
+	TpBei.MouseButton1Click:Connect(function()
+	
+		game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(112,68,-112)
+	end)
+	
+	
+end
+coroutine.wrap(LRHX_fake_script)()
+local function RWHMNQQ_fake_script() -- TpAme.LocalScript 
+	local script = Instance.new('LocalScript', TpAme)
+
+	getfenv().script = Instance.new('Script', TpAme)
+	
+	TpAme.MouseButton1Click:Connect(function()
+	
+		game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-112,68,-112)
+	end)
+	
+	
+end
+coroutine.wrap(RWHMNQQ_fake_script)()
+local function DXHU_fake_script() -- TpTo.LocalScript 
+	local script = Instance.new('LocalScript', TpTo)
+
+	getfenv().script = Instance.new('Script', TpTo)
+	
+	TpTo.MouseButton1Click:Connect(function()
+	
+		local p1 = game.Players.LocalPlayer.Character.HumanoidRootPart
+		local p2 = TpInput.Text
+			local pos = p1.CFrame
+	
+		p1.CFrame = game.Players[p2].Character.HumanoidRootPart.CFrame
+	
+		wait(5)
+	
+		p1.CFrame = pos
+	end)
+	
+	
+end
+coroutine.wrap(DXHU_fake_script)()
+local function AZHDOE_fake_script() -- TpMid.LocalScript 
+	local script = Instance.new('LocalScript', TpMid)
+
+	getfenv().script = Instance.new('Script', TpMid)
+	
+	TpMid.MouseButton1Click:Connect(function()
+	
+		game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(0,68,0)
+	end)
+	
+	
+end
+coroutine.wrap(AZHDOE_fake_script)()
+local function EBYIF_fake_script() -- TpsTitle.LocalScript 
+	local script = Instance.new('LocalScript', TpsTitle)
+
+	while true do
+		for a = 1,360,1 do
+			wait(0.1)
+			TpsTitle.TextColor3 = Color3.fromHSV(a/360,1,1)
+		end
+	end
+end
+coroutine.wrap(EBYIF_fake_script)()
+local function MFCCYW_fake_script() -- Frame21.LocalScript 
+	local script = Instance.new('LocalScript', Frame21)
+
+	local Plr = game.Players.LocalPlayer
+	
+	Plr:GetMouse().KeyDown:Connect(function(K)
+		if K == "q" then
+			script.Parent.Visible = false
+		end
+	end)
+	
+	local Plr = game.Players.LocalPlayer
+	
+	Plr:GetMouse().KeyDown:Connect(function(K)
+		if K == "e" then
+			script.Parent.Visible = true
+		end
+	end)
+end
+coroutine.wrap(MFCCYW_fake_script)()
+local function ATDW_fake_script() -- BoxEsp.LocalScript 
+	local script = Instance.new('LocalScript', BoxEsp)
+
+	getfenv().script = Instance.new('Script', BoxEsp)
+	
+	BoxEsp.MouseButton1Click:Connect(function()
+	
+		loadstring(game:HttpGet("https://raw.githubusercontent.com/Rollimonster/esp-with-health-bar/main/esp-with-health-bar", true))()
+	end)
+	
+	
+	
+end
+coroutine.wrap(ATDW_fake_script)()
+local function GONJ_fake_script() -- DrawFov.LocalScript 
+	local script = Instance.new('LocalScript', DrawFov)
+
+	getfenv().script = Instance.new('Script', DrawFov)
+	
+	DrawFov.MouseButton1Click:Connect(function()
+	
+		local dwCamera = workspace.CurrentCamera
+		local dwRunService = game:GetService("RunService")
+	
+		local settings = {
+			Aimbot_Draw_FOV = true,
+			Aimbot_FOV_Radius = 300,
+			Aimbot_FOV_Color = Color3.fromRGB(255, 0, 0)
+		}
+	
+		local fovcircle = Drawing.new("Circle")
+		fovcircle.Visible = settings.Aimbot_Draw_FOV
+		fovcircle.Radius = settings.Aimbot_FOV_Radius
+		fovcircle.Color = settings.Aimbot_FOV_Color
+		fovcircle.Thickness = 3
+		fovcircle.Filled = false
+		fovcircle.Transparency = 0.5
+	
+		fovcircle.Position = Vector2.new(dwCamera.ViewportSize.X / 2, dwCamera.ViewportSize.Y / 2)
+	end)
+	
+	
+end
+coroutine.wrap(GONJ_fake_script)()
+local function JDGUFF_fake_script() -- NameEsp.LocalScript 
+	local script = Instance.new('LocalScript', NameEsp)
+
+	getfenv().script = Instance.new('Script', NameEsp)
+	
+	NameEsp.MouseButton1Click:Connect(function()
+	
+		loadstring(game:HttpGet("https://raw.githubusercontent.com/Rollimonster/Roblox-Name-esp/main/Roblox-Name-esp", true))()
+	end)
+	
+	
+	
+end
+coroutine.wrap(JDGUFF_fake_script)()
+local function AORHC_fake_script() -- Frame22.LocalScript 
+	local script = Instance.new('LocalScript', Frame22)
+
+	while true do
+		for a = 1,360,1 do
+			wait(0.1)
+			Frame21.BackgroundColor3 = Color3.fromHSV(a/360,1,1)
+		end
+	end
+end
+coroutine.wrap(AORHC_fake_script)()
+local function SMPBONP_fake_script() -- SkeEsp.LocalScript 
+	local script = Instance.new('LocalScript', SkeEsp)
+
+	getfenv().script = Instance.new('Script', SkeEsp)
+	
+	SkeEsp.MouseButton1Click:Connect(function()
+	
+		loadstring(game:HttpGet("https://raw.githubusercontent.com/Rollimonster/R6-Skeleton-esp/main/R6-Skeleton-esp", true))()
+	end)
+	
+	
+	
+end
+coroutine.wrap(SMPBONP_fake_script)()
+local function BHYN_fake_script() -- Invis.LocalScript 
+	local script = Instance.new('LocalScript', Invis)
+
+	getfenv().script = Instance.new('Script', Invis)
+	
+	Invis.MouseButton1Click:Connect(function()
+	
+		loadstring(game:HttpGet("https://raw.githubusercontent.com/Rollimonster/fe-invis/main/fe-invis", true))()
+	end)
+	
+	
+	
+end
+coroutine.wrap(BHYN_fake_script)()
+local function HJBGYP_fake_script() -- Spoofer.LocalScript 
+	local script = Instance.new('LocalScript', Spoofer)
+
+	getfenv().script = Instance.new('Script', Spoofer)
+	
+	Spoofer.MouseButton1Click:Connect(function()
+	
+		loadstring(game:HttpGet("https://raw.githubusercontent.com/Rollimonster/Roblox-Avatar-Spoofer/main/Roblox-Avatar-Spoofer", true))()
+	end)
+	
+	
+	
+end
+coroutine.wrap(HJBGYP_fake_script)()
+local function PJGWBXD_fake_script() -- MapEsp.LocalScript 
+	local script = Instance.new('LocalScript', MapEsp)
+
+	getfenv().script = Instance.new('Script', MapEsp)
+	
+	MapEsp.MouseButton1Click:Connect(function()
+	
+		loadstring(game:HttpGet("https://raw.githubusercontent.com/Rollimonster/roblox-Radar-Esp/main/roblox-radar-Eso", true))()
+	end)
+	
+	
+	
+end
+coroutine.wrap(PJGWBXD_fake_script)()
+local function GTWZCUG_fake_script() -- Aimbot.LocalScript 
+	local script = Instance.new('LocalScript', Aimbot)
+
+	getfenv().script = Instance.new('Script', Spoofer)
+	
+	Spoofer.MouseButton1Click:Connect(function()
+	
+		loadstring(game:HttpGet("https://raw.githubusercontent.com/Rollimonster/Roblox-Avatar-Spoofer/main/Roblox-Avatar-Spoofer", true))()
+	end)
+	
+	
+	
+end
+coroutine.wrap(GTWZCUG_fake_script)()
+local function CMNA_fake_script() -- Toggle.LocalScript 
+	local script = Instance.new('LocalScript', Toggle)
+
+	local function PNHLOYF_fake_script() -- Toggle.LocalScript 
+		local script = Instance.new('LocalScript', Toggle)
+	
+		_G.aimbot = false
+		local camera = game.Workspace.CurrentCamera
+		local localplayer = game:GetService("Players").LocalPlayer
+	
+		script.Parent.MouseButton1Click:Connect(function()
+			if _G.aimbot == false then
+				_G.aimbot = true
+				script.Parent.BackgroundColor3 = Color3.fromRGB(0,170,0)
+				function closestplayer()
+					local dist = math.huge -- math.huge means a really large number, 1M+.
+					local target = nil --- nil means no value
+					for i,v in pairs (game:GetService("Players"):GetPlayers()) do
+						if v ~= localplayer then
+							if v.Character and v.Character:FindFirstChild("Head") and _G.aimbot and v.Character.Humanoid.Health > 0 then --- creating the checks
+								local magnitude = (v.Character.Head.Position - localplayer.Character.Head.Position).magnitude
+								if magnitude < dist then
+									dist = magnitude
+									target = v
+								end
+	
+							end
+						end
+					end
+					return target
+				end
+	
+			else
+				_G.aimbot = false
+				script.Parent.BackgroundColor3 = Color3.fromRGB(255,0,0)
+			end
+		end)
+	
+		local settings = {
+			keybind = Enum.UserInputType.MouseButton2
+		}
+	
+		local UIS = game:GetService("UserInputService")
+		local aiming = false --- this toggle will make it so we lock on to the person when we press our keybind
+	
+		UIS.InputBegan:Connect(function(inp)
+			if inp.UserInputType == settings.keybind then
+				aiming = true
+			end
+		end)
+	
+		UIS.InputEnded:Connect(function(inp)
+			if inp.UserInputType == settings.keybind then ---- when we stop pressing the keybind it would unlock off the player
+				aiming = false
+			end
+		end)
+	
+		game:GetService("RunService").RenderStepped:Connect(function()
+			if aiming then
+				camera.CFrame = CFrame.new(camera.CFrame.Position,closestplayer().Character.Head.Position) -- locks into the HEAD
+			end
+		end)
+	end
+	coroutine.wrap(PNHLOYF_fake_script)()
+end
+coroutine.wrap(CMNA_fake_script)()
+local function CTJJQ_fake_script() -- VisualsTitle.LocalScript 
+	local script = Instance.new('LocalScript', VisualsTitle)
+
+	while true do
+		for a = 1,360,1 do
+			wait(0.1)
+			VisualsTitle.TextColor3 = Color3.fromHSV(a/360,1,1)
+		end
+	end
+end
+coroutine.wrap(CTJJQ_fake_script)()
+local function HZDLSUV_fake_script() -- Frame31.LocalScript 
+	local script = Instance.new('LocalScript', Frame31)
+
+	local Plr = game.Players.LocalPlayer
+	
+	Plr:GetMouse().KeyDown:Connect(function(K)
+		if K == "q" then
+			script.Parent.Visible = false
+		end
+	end)
+	
+	local Plr = game.Players.LocalPlayer
+	
+	Plr:GetMouse().KeyDown:Connect(function(K)
+		if K == "e" then
+			script.Parent.Visible = true
+		end
+	end)
+end
+coroutine.wrap(HZDLSUV_fake_script)()
+local function KAQHBP_fake_script() -- Inf.LocalScript 
+	local script = Instance.new('LocalScript', Inf)
+
+	getfenv().script = Instance.new('Script', Inf)
+	
+	Inf.MouseButton1Click:Connect(function()
+	
+		loadstring(game:HttpGet("https://raw.githubusercontent.com/Rollimonster/Inf-Jump/main/Inf-Jump", true))()
+	end)
+	
+	
+	
+end
+coroutine.wrap(KAQHBP_fake_script)()
+local function UZIBE_fake_script() -- WalkSpeedInp.LocalScript 
+	local script = Instance.new('LocalScript', WalkSpeedInp)
+
+	getfenv().script = Instance.new('Script', WalkSpeedInp)
+	
+	WalkSpeedInp.MouseButton1Click:Connect(function()
+	
+		game.Players.LocalPlayer.Character.Humanoid.WalkSpeed = WSText.Text
+	end)
+	
+	
+	
+end
+coroutine.wrap(UZIBE_fake_script)()
+local function BNLAY_fake_script() -- WalkSpeedInp.LocalScript 
+	local script = Instance.new('LocalScript', WalkSpeedInp)
+
+	while true do
+		for a = 1,360,1 do
+			wait(0.1)
+			WalkSpeedInp.TextColor3 = Color3.fromHSV(a/360,1,1)
+		end
+	end
+end
+coroutine.wrap(BNLAY_fake_script)()
+local function NRKT_fake_script() -- JpInp.LocalScript 
+	local script = Instance.new('LocalScript', JpInp)
+
+	getfenv().script = Instance.new('Script', JpInp)
+	
+	JpInp.MouseButton1Click:Connect(function()
+	
+		game.Players.LocalPlayer.Character.Humanoid.JumpPower = JPText.Text
+	end)
+	
+	
+	
+end
+coroutine.wrap(NRKT_fake_script)()
+local function PTTWCEM_fake_script() -- JpInp.LocalScript 
+	local script = Instance.new('LocalScript', JpInp)
+
+	while true do
+		for a = 1,360,1 do
+			wait(0.1)
+			JpInp.TextColor3 = Color3.fromHSV(a/360,1,1)
+		end
+	end
+end
+coroutine.wrap(PTTWCEM_fake_script)()
+local function LZOWN_fake_script() -- ClickTp.LocalScript 
+	local script = Instance.new('LocalScript', ClickTp)
+
+	getfenv().script = Instance.new('Script', ClickTp)
+	
+	local script = Instance.new('LocalScript', ClickTp)
+	
+	ClickTp.MouseButton1Click:Connect(function()
+	
+		loadstring(game:HttpGet("https://raw.githubusercontent.com/Rollimonster/Roblox-Click-to-tp/main/Click%20to%20tp", true))()
+	end)
+	
+	
+	
+end
+coroutine.wrap(LZOWN_fake_script)()
+local function VGAML_fake_script() -- NoClip.LocalScript 
+	local script = Instance.new('LocalScript', NoClip)
+
+	getfenv().script = Instance.new('Script', NoClip)
+	
+	NoClip.MouseButton1Click:Connect(function()
+	
+		loadstring(game:HttpGet("https://raw.githubusercontent.com/Rollimonster/Roblox-r6-NoClip/main/Roblox-r6-NoClip", true))()
+	end)
+	
+	
+	
+end
+coroutine.wrap(VGAML_fake_script)()
+local function QZZDSX_fake_script() -- Fly.LocalScript 
+	local script = Instance.new('LocalScript', Fly)
+
+	getfenv().script = Instance.new('Script', Fly)
+	
+	Fly.MouseButton1Click:Connect(function()
+	
+		loadstring(game:HttpGet("https://raw.githubusercontent.com/Rollimonster/Fly-script/main/fly-script"))();
+	end)
+	
+	
+end
+coroutine.wrap(QZZDSX_fake_script)()
+local function XHSCXUL_fake_script() -- SetHip.LocalScript 
+	local script = Instance.new('LocalScript', SetHip)
+
+	getfenv().script = Instance.new('Script', SetHip)
+	
+	SetHip.MouseButton1Click:Connect(function()
+	
+		game.Players.LocalPlayer.Character.Humanoid.HipHieght = HipText.Text
+	end)
+	
+	
+	
+end
+coroutine.wrap(XHSCXUL_fake_script)()
+local function DMNJ_fake_script() -- SetHip.LocalScript 
+	local script = Instance.new('LocalScript', SetHip)
+
+	while true do
+		for a = 1,360,1 do
+			wait(0.1)
+			SetHip.TextColor3 = Color3.fromHSV(a/360,1,1)
+		end
+	end
+end
+coroutine.wrap(DMNJ_fake_script)()
+local function TMVG_fake_script() -- Sprint.LocalScript 
+	local script = Instance.new('LocalScript', Sprint)
+
+	getfenv().script = Instance.new('Script', Sprint)
+	
+	Sprint.MouseButton1Click:Connect(function()
+	
+		loadstring(game:HttpGet("https://raw.githubusercontent.com/Rollimonster/Roblox-sprint-/main/Dees-nuts", true))()
+	end)
+	
+	
+	
+end
+coroutine.wrap(TMVG_fake_script)()
+local function MILJ_fake_script() -- Expand.LocalScript 
+	local script = Instance.new('LocalScript', Expand)
+
+	getfenv().script = Instance.new('Script', Expand)
+	
+	Expand.MouseButton1Click:Connect(function()
+	
+		loadstring(game:HttpGet("https://raw.githubusercontent.com/Rollimonster/Roblox-hitbox-expander/main/Roblox-hitbox-expander", true))()
+	end)
+	
+	
+	
+end
+coroutine.wrap(MILJ_fake_script)()
+local function BDUO_fake_script() -- GodMode.LocalScript 
+	local script = Instance.new('LocalScript', GodMode)
+
+	getfenv().script = Instance.new('Script', GodMode)
+	
+	GodMode.MouseButton1Click:Connect(function()
+	
+		loadstring(game:HttpGet("https://raw.githubusercontent.com/Rollimonster/R6-Godmode/main/R6-Godmode", true))()
+	end)
+	
+	
+	
+end
+coroutine.wrap(BDUO_fake_script)()
+local function OARX_fake_script() -- TpAllHead.LocalScript 
+	local script = Instance.new('LocalScript', TpAllHead)
+
+	getfenv().script = Instance.new('Script', TpAllHead)
+	
+	TpAllHead.MouseButton1Click:Connect(function()
+	
+		loadstring(game:HttpGet("https://raw.githubusercontent.com/Rollimonster/roblox-tp-all-head/main/roblox%20tp%20all%20head", true))()
+	end)
+	
+	
+	
+end
+coroutine.wrap(OARX_fake_script)()
+local function NBEOOZ_fake_script() -- TpAllHrp.LocalScript 
+	local script = Instance.new('LocalScript', TpAllHrp)
+
+	getfenv().script = Instance.new('Script', TpAllHrp)
+	
+	TpAllHrp.MouseButton1Click:Connect(function()
+	
+		loadstring(game:HttpGet("https://raw.githubusercontent.com/Rollimonster/Tp-All-Hrp/main/Tp-All-hrp", true))()
+	end)
+	
+	
+	
+end
+coroutine.wrap(NBEOOZ_fake_script)()
+local function VCMKKM_fake_script() -- Expand_2.LocalScript 
+	local script = Instance.new('LocalScript', Expand_2)
+
+	getfenv().script = Instance.new('Script', Expand)
+	
+	Expand.MouseButton1Click:Connect(function()
+	
+		loadstring(game:HttpGet("https://raw.githubusercontent.com/Rollimonster/Roblox-hitbox-expander/main/Roblox-hitbox-expander", true))()
+	end)
+	
+	
+	
+end
+coroutine.wrap(VCMKKM_fake_script)()
+local function MRJFY_fake_script() -- VisualsTitle_2.LocalScript 
+	local script = Instance.new('LocalScript', VisualsTitle_2)
+
+	while true do
+		for a = 1,360,1 do
+			wait(0.1)
+			VisualsTitle.TextColor3 = Color3.fromHSV(a/360,1,1)
+		end
+	end
+end
+coroutine.wrap(MRJFY_fake_script)()
+local function MDESHC_fake_script() -- Frame31.LocalScript 
+	local script = Instance.new('LocalScript', Frame31)
+
+	while true do
+		for a = 1,360,1 do
+			wait(0.1)
+			Frame31.BackgroundColor3 = Color3.fromHSV(a/360,1,1)
+		end
+	end
+end
+coroutine.wrap(MDESHC_fake_script)()
+local function LTTRUE_fake_script() -- Frame41.LocalScript 
+	local script = Instance.new('LocalScript', Frame41)
+
+	local Plr = game.Players.LocalPlayer
+	
+	Plr:GetMouse().KeyDown:Connect(function(K)
+		if K == "q" then
+			script.Parent.Visible = false
+		end
+	end)
+	
+	local Plr = game.Players.LocalPlayer
+	
+	Plr:GetMouse().KeyDown:Connect(function(K)
+		if K == "e" then
+			script.Parent.Visible = true
+		end
+	end)
+end
+coroutine.wrap(LTTRUE_fake_script)()
+local function ZWGUVY_fake_script() -- SunBadge.LocalScript 
+	local script = Instance.new('LocalScript', SunBadge)
+
+	getfenv().script = Instance.new('Script', SunBadge)
+	
+	SunBadge.MouseButton1Click:Connect(function()
+	
+		game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(0,200,0)
+	end)
+	
+	
+	
+end
+coroutine.wrap(ZWGUVY_fake_script)()
+local function SBKNSC_fake_script() -- NoRocketCoolDown.LocalScript 
+	local script = Instance.new('LocalScript', NoRocketCoolDown)
+
+	getfenv().script = Instance.new('Script', NoRocketCoolDown)
+	
+	NoRocketCoolDown.MouseButton1Click:Connect(function()
+	
+		loadstring(game:HttpGet("https://paste.ee/r/r826i/0", true))()
+	end)
+	
+	
+	
+end
+coroutine.wrap(SBKNSC_fake_script)()
+local function SXBAMI_fake_script() -- Chat.LocalScript 
+	local script = Instance.new('LocalScript', Chat)
+
+	getfenv().script = Instance.new('Script', Chat)
+	
+	Chat.MouseButton1Click:Connect(function()
+	
+		while true do wait(4) 
+	
+			local A_1 = ChatBotInp.text local A_2 = "All" 
+			local Event = game:GetService("ReplicatedStorage").DefaultChatSystemChatEvents.SayMessageRequest Event:FireServer(A_1, A_2) end
+	end)
+	
+	
+	
+end
+coroutine.wrap(SXBAMI_fake_script)()
+local function QXWUFKY_fake_script() -- Chat.LocalScript 
+	local script = Instance.new('LocalScript', Chat)
+
+	while true do
+		for a = 1,360,1 do
+			wait(0.1)
+			Chat.TextColor3 = Color3.fromHSV(a/360,1,1)
+		end
+	end
+end
+coroutine.wrap(QXWUFKY_fake_script)()
+local function PGSHA_fake_script() -- FunTitle.LocalScript 
+	local script = Instance.new('LocalScript', FunTitle)
+
+	while true do
+		for a = 1,360,1 do
+			wait(0.1)
+			FunTitle.TextColor3 = Color3.fromHSV(a/360,1,1)
+		end
+	end
+end
+coroutine.wrap(PGSHA_fake_script)()
+local function PVADU_fake_script() -- Frame41.LocalScript 
+	local script = Instance.new('LocalScript', Frame41)
+
+	while true do
+		for a = 1,360,1 do
+			wait(0.1)
+			Frame41.BackgroundColor3 = Color3.fromHSV(a/360,1,1)
+		end
+	end
+end
+coroutine.wrap(PVADU_fake_script)()
